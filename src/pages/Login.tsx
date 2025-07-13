@@ -19,7 +19,7 @@ const Login = () => {
     // Simulate API call
     setTimeout(() => {
       const validCredentials = [
-        { username: "Naveen", password: "123", role: "user" },
+        { username: "maths", password: "12345", role: "user" },
         { username: "Admin", password: "123", role: "admin" }
       ];
 

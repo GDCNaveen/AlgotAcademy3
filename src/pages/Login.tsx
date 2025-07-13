@@ -35,11 +35,15 @@ const Login = () => {
         localStorage.setItem("userRole", user.role);
         localStorage.setItem("username", user.username);
         localStorage.setItem("loginExpiry", expiryDate.toISOString());
-
+        
+        
+        {/*
         toast({
           title: "Login Successful",
           description: `Welcome ${user.username}!`,
-        });
+        });  */}
+
+        
 
         if (user.role === "admin") {
           navigate("/admin");
@@ -65,12 +69,14 @@ const Login = () => {
             <img src="/college-logo.png" alt="College Logo" className="w-16 h-16 rounded-full mx-auto" />
           </div>
           <CardTitle className="gradient-text text-xl">
-            Government Degree College, Morthad
+           Algot Academy
           </CardTitle>
-          <p className="text-sm text-muted-foreground">
+          
+          {/* <p className="text-sm text-muted-foreground">
             Accredited with NAAC 'B' Grade<br />
             (Affiliate to Telangana University)
-          </p>
+          </p> */}
+          
         </CardHeader>
         <CardContent>
           <form onSubmit={handleLogin} className="space-y-4">
@@ -101,6 +107,7 @@ const Login = () => {
             </Button>
           </form>
           <div className="mt-4 text-xs text-center text-muted-foreground">
+            <p> A. Naveen, Cell: 9494719306</p>
             <p>Valid until: December 31, 2025 - 8:00 AM</p>
           </div>
         </CardContent>

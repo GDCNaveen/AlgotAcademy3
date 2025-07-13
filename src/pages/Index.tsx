@@ -32,6 +32,14 @@ const Index = () => {
       category: "Chapter-1 Real Numbers",
       description: "Chapter 1 Real Numbers Part 3",
       videoUrl: "https://player.vimeo.com/video/1100963408?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+    },
+     {
+      id: 4,
+      title: "Part-4",
+      type: "video" as const,
+      category: "Chapter-1 Real Numbers",
+      description: "Chapter 1 Real Numbers Part 4",
+      videoUrl: "https://player.vimeo.com/video/1100966211?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
     }
   ]);
 

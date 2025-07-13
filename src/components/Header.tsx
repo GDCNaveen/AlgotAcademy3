@@ -86,7 +86,7 @@ const Header = ({ isVisible }: HeaderProps) => {
           </Sheet>
 
           <div className="college-logo">
-            <img src="/college-logo.png" alt="College Logo" className="w-12 h-12 rounded-full" />
+            <img src="/logo.png" alt="College Logo" className="w-12 h-12 rounded-full" />
           </div>
 
           <div className="w-10" /> {/* Spacer for symmetry */}
@@ -95,14 +95,14 @@ const Header = ({ isVisible }: HeaderProps) => {
         {/* College Information */}
         <div className="text-center">
           <h1 className="gradient-text text-lg font-bold leading-tight">
-            Government Degree College, Morthad
+            Algot Academy
           </h1>
-          <p className="gradient-text text-sm leading-tight">
+          {/* <p className="gradient-text text-sm leading-tight">
             Accredited with NAAC 'B' Grade
           </p>
           <p className="gradient-text text-xs leading-tight">
             (Affiliate to Telangana University)
-          </p>
+          </p> */}
         </div>
       </div>
     </header>

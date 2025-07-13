@@ -27,11 +27,11 @@ const Index = () => {
     },
     {
       id: 3,
-      title: "Number Line Representation",
+      title: "Part-3",
       type: "video" as const,
       category: "Chapter-1 Real Numbers",
-      description: "Visual representation of real numbers on a number line",
-      imageUrl: "https://player.vimeo.com/video/1095495803?h=55eac0fa5a&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+      description: "Chapter 1 Real Numbers Part 3",
+      videoUrl: "https://player.vimeo.com/video/1100963408?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
     }
   ]);
 

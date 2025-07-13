@@ -11,19 +11,19 @@ const Chapter2Sets = () => {
   const [content] = useState([
     {
       id: 1,
-      title: "Introduction to Sets",
+      title: "Part-1",
       type: "video" as const,
-      category: "Chapter-2 Sets",
-      description: "Basic concepts and definitions of sets in mathematics",
-      videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      category: "Chapter-1 Real Numbers",
+      description: "Chapter 1 Real Numbers Part 1 - Understanding the concept of real numbers and their classification",
+      videoUrl: "https://player.vimeo.com/video/1095495803?h=55eac0fa5a&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
     },
     {
       id: 2,
-      title: "Set Operations",
+      title: "Part-2",
       type: "video" as const,
-      category: "Chapter-2 Sets",
-      description: "Union, intersection, and complement operations on sets",
-      videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      category: "Chapter-1 Real Numbers",
+      description: "Chapter 1 Real Numbers Part 2",
+      videoUrl: "https://player.vimeo.com/video/1100958844?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
     },
     {
       id: 3,

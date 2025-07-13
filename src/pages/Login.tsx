@@ -66,7 +66,7 @@ const Login = () => {
       <Card className="w-full max-w-md">
         <CardHeader className="text-center">
           <div className="college-logo mx-auto mb-4">
-            <img src="/college-logo.png" alt="College Logo" className="w-16 h-16 rounded-full mx-auto" />
+            <img src="/logo.png" alt="College Logo" className="w-16 h-16 rounded-full mx-auto" />
           </div>
           <CardTitle className="gradient-text text-xl">
            Algot Academy
@@ -107,8 +107,8 @@ const Login = () => {
             </Button>
           </form>
           <div className="mt-4 text-xs text-center text-muted-foreground">
-            <p> A. Naveen, Cell: 9494719306</p>
-            <p>Valid until: December 31, 2025 - 8:00 AM</p>
+            <p>Contact:  A. Naveen, Cell: 9494719306</p>
+            {/* <p>Valid until: December 31, 2025 - 8:00 AM</p> */}
           </div>
         </CardContent>
       </Card>

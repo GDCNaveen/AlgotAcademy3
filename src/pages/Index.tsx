@@ -31,7 +31,7 @@ const Index = () => {
       type: "image" as const,
       category: "Chapter-1 Real Numbers",
       description: "Visual representation of real numbers on a number line",
-      imageUrl: "https://via.placeholder.com/400x300/0066cc/ffffff?text=Number+Line",
+      imageUrl: "https://player.vimeo.com/video/1095495803?h=55eac0fa5a&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
     }
   ]);
 

@@ -40,7 +40,7 @@ const Contact = () => {
 
             {/* Institution Details */}
             <div className="bg-white rounded-lg shadow-md p-8 mb-8">
-              <h3 className="gradient-text text-2xl font-bold mb-6 text-center">Government Degree College, Morthad</h3>
+              <h3 className="gradient-text text-2xl font-bold mb-6 text-center">Algot Academy Online Classes</h3>
               
               <div className="grid gap-6 md:grid-cols-2">
                 <div className="space-y-4">
@@ -49,7 +49,7 @@ const Contact = () => {
                     <div>
                       <h4 className="font-semibold text-gray-800 mb-1">Address</h4>
                       <p className="text-gray-600">
-                        Government Degree College, Morthad<br />
+                        Algot Academy, Morthad<br />
                         Telangana, India
                       </p>
                     </div>
@@ -59,7 +59,7 @@ const Contact = () => {
                     <Phone className="w-6 h-6 text-green-500 mr-3 mt-1 flex-shrink-0" />
                     <div>
                       <h4 className="font-semibold text-gray-800 mb-1">Phone</h4>
-                      <p className="text-gray-600">+91 9948954811</p>
+                      <p className="text-gray-600">+91 949471906</p>
                     </div>
                   </div>
 
@@ -67,12 +67,12 @@ const Contact = () => {
                     <Mail className="w-6 h-6 text-blue-500 mr-3 mt-1 flex-shrink-0" />
                     <div>
                       <h4 className="font-semibold text-gray-800 mb-1">Email</h4>
-                      <p className="text-gray-600">gdcmorthad@gmail.com</p>
+                      <p className="text-gray-600">algotnaveen@gmail.com</p>
                     </div>
                   </div>
                 </div>
 
-                <div className="space-y-4">
+                {/* <div className="space-y-4">
                   <div className="flex items-start">
                     <Globe className="w-6 h-6 text-purple-500 mr-3 mt-1 flex-shrink-0" />
                     <div>
@@ -104,7 +104,7 @@ const Contact = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* Key Personnel */}
             <div className="grid gap-6 md:grid-cols-2">
@@ -114,34 +114,8 @@ const Contact = () => {
                   <div className="college-logo w-16 h-16 mx-auto mb-3">
                     <Users className="w-8 h-8 text-primary" />
                   </div>
-                  <h3 className="gradient-text text-xl font-bold">Dr. T. Peddanna</h3>
-                  <p className="text-gray-600 font-medium">Principal (FAC)</p>
-                </div>
-                
-                <div className="space-y-3">
-                  <div className="flex items-center">
-                    <Phone className="w-5 h-5 text-green-500 mr-3" />
-                    <span className="text-gray-700">+91 9948954811</span>
-                  </div>
-                  <div className="flex items-center">
-                    <Mail className="w-5 h-5 text-blue-500 mr-3" />
-                    <span className="text-gray-700">gdcmorthad@gmail.com</span>
-                  </div>
-                  <div className="flex items-center">
-                    <Globe className="w-5 h-5 text-purple-500 mr-3" />
-                    <span className="text-gray-700">www.gdcmorthad.edu</span>
-                  </div>
-                </div>
-              </div>
-
-              {/* Faculty Coordinator */}
-              <div className="bg-white rounded-lg shadow-md p-6">
-                <div className="text-center mb-4">
-                  <div className="college-logo w-16 h-16 mx-auto mb-3">
-                    <Users className="w-8 h-8 text-primary" />
-                  </div>
-                  <h3 className="gradient-text text-xl font-bold">Naveen</h3>
-                  <p className="text-gray-600 font-medium">TSKC FTM</p>
+                  <h3 className="gradient-text text-xl font-bold">A. Naveen</h3>
+                  <p className="text-gray-600 font-medium">Educator</p>
                 </div>
                 
                 <div className="space-y-3">
@@ -153,10 +127,36 @@ const Contact = () => {
                     <Mail className="w-5 h-5 text-blue-500 mr-3" />
                     <span className="text-gray-700">algotnaveen@gmail.com</span>
                   </div>
+                  {/* <div className="flex items-center">
+                    <Globe className="w-5 h-5 text-purple-500 mr-3" />
+                    <span className="text-gray-700">www.gdcmorthad.edu</span>
+                  </div> */}
+                </div>
+              </div>
+
+              {/* Faculty Coordinator */}
+              <div className="bg-white rounded-lg shadow-md p-6">
+                <div className="text-center mb-4">
+                  <div className="college-logo w-16 h-16 mx-auto mb-3">
+                    <Users className="w-8 h-8 text-primary" />
+                  </div>
+                  <h3 className="gradient-text text-xl font-bold">O. Srinivas</h3>
+                  <p className="text-gray-600 font-medium">Educator</p>
+                </div>
+                
+                <div className="space-y-3">
                   <div className="flex items-center">
+                    <Phone className="w-5 h-5 text-green-500 mr-3" />
+                    <span className="text-gray-700">+91 9494719306</span>
+                  </div>
+                  <div className="flex items-center">
+                    <Mail className="w-5 h-5 text-blue-500 mr-3" />
+                    <span className="text-gray-700">sreenivasoraganti@gmail.com</span>
+                  </div>
+                  {/* <div className="flex items-center">
                     <Globe className="w-5 h-5 text-purple-500 mr-3" />
                     <span className="text-gray-700">www.algotnaveen.com</span>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
